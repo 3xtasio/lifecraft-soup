@@ -1,0 +1,5 @@
+Stockage:
+  host: localhost
+  database: soup
+  username: root
+  password: root

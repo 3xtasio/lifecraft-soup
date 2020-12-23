@@ -1,0 +1,48 @@
+name: LifecraftSoup
+version: 1.0
+author: Extasio15
+description: LifecraftSoup
+main: fr.lifecraftsoup.main.Main
+prefix: LifecraftSoup
+depend: [SmartInvs]
+
+commands:
+  rankup:
+    description: Permet de rankup
+    aliases: [ru,rankups]
+    default: true
+  menu:
+    description: Affiche le menu des kits
+    aliases: [kits, kit]
+    default: true
+  soup:
+    description: Refill ton inventaire de soup
+    default: true
+  leaderboard:
+    description: Permet de voir le classement
+    aliases: [classement, top]
+    default: true
+  stats:
+    description: Affiche les stats
+    default: true
+  rank:
+    permission: lcsoup.rank
+    description: Permet de gérer les ranks des joueurs
+    default: op
+  crédit:
+    description: Affiche/gère les crédits des joueurs
+    aliases: [c, credit, coins, money, monnaie]
+    default: true
+  prestige:
+    permission: lcsoup.prestige
+    description: Permet de gérer les prestiges des joueurs
+    default: op
+  autosoup:
+    permission: lcsoup.autosoup
+    description: Permet d'activer/désactiver un autosoup
+    default: op
+  menucommand:
+    description: Permet d'afficher le menu des commandes
+    default: true
+  
+    
